@@ -1,0 +1,57 @@
+body,
+html {
+  color: #000;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  height: 100vh;
+  background-color: rgb(156, 121, 121);
+}
+.container {
+  background-color: #fff;
+  width: 70%;
+  height: 70vh;
+  margin: 20px auto;
+}
+.container .row {
+  display: flex;
+  justify-content: space-around;
+}
+.row form input[type="text"] {
+  width: 100%;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 20px;
+}
+.row form input[type="submit"] {
+  background-color: rgb(168, 28, 28);
+  color: white;
+  font-size: 15px;
+  width: 40%;
+  height: 36px;
+  margin-top: 10px;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+h2 {
+  color: #555;
+  font-style: oblique;
+}
+
+.row .posts {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  color: red;
+  list-style-type: none;
+}
+
+.row .posts li {
+  padding: 5px;
+  font-size: 16px;
+  border-bottom: 1px solid #775a5a;
+  cursor: pointer;
+}

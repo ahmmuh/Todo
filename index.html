@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h2>Ny poster</h2>
+          <ul class="posts"></ul>
+        </div>
+        <div class="col-8">
+          <h2>Här kan du skriva ditt inlägg</h2>
+          <form id="post-form">
+            <div class="form-control">
+              <input
+                type="text"
+                name="post"
+                id="post"
+                placeholder="skriv ditt inlägg här ..."
+              />
+            </div>
+            <input type="submit" id="sendBtn" value="Lägg till" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
